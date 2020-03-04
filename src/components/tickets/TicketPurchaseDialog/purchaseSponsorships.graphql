@@ -1,0 +1,6 @@
+mutation($items: [SponsorshipItem]) {
+  purchaseSponsorships(items: $items, billingInfo: {}, accountInfo: {}, userInfo: {}) {
+    uid
+    error
+  }
+}

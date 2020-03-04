@@ -1,0 +1,13 @@
+{
+  eventFormChoices {
+    organizerChoices{
+      id
+      contentTypeId
+      name
+    }
+    categories{
+      id
+      name
+    }
+  }
+}

@@ -1,0 +1,22 @@
+query($eventId: Int, $queryParams: String) {
+  sponsorshipsTable(eventId: $eventId, queryParams: $queryParams) {
+    count
+    next
+    previous
+    results {
+      id
+      uid
+      total
+      status
+      date
+      user
+      email
+      sponsorship {
+        id
+        ticketName
+        description
+        price
+      }
+    }
+  }
+}

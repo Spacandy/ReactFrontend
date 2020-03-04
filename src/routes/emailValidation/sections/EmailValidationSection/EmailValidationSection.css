@@ -1,0 +1,38 @@
+/*
+//              ___             _   _  _ _
+//             | __|_ _____ _ _| |_| || (_)
+// Property of:| _|\ V / -_) ' \  _| __ | |
+//             |___|\_/\___|_||_\__|_||_|_|
+//
+*/
+
+.wrapper {
+  background-color: #fafafa !important;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 100%;
+  display: table;
+}
+
+.inner-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 300px;
+  margin: 20% auto;
+}
+.header {
+  font-family: Roboto;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  height: 80px;
+  margin: auto 40px;
+  padding-bottom: 5px;
+}

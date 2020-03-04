@@ -1,0 +1,9 @@
+mutation($eventId: ID!, $ticketsUID: [String]) {
+  checkin(eventId: $eventId, ticketUID: $ticketUID) {
+    id
+    uid
+    name
+    guest
+    claimed
+  }
+}

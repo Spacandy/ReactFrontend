@@ -1,0 +1,23 @@
+/*
+//              ___             _   _  _ _
+//             | __|_ _____ _ _| |_| || (_)
+// Property of:| _|\ V / -_) ' \  _| __ | |
+//             |___|\_/\___|_||_\__|_||_|_|
+//
+*/
+
+.af-hotfix input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #303030 inset !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.701961);
+}
+
+@media (max-width: 374px) {
+    .button {
+        max-width: 74px !important;
+        min-width: 74px !important;
+        float: left
+    }
+    .button > div > span {
+      font-size: 11px !important;
+    }
+}

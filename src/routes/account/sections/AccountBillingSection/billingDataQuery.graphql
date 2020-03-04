@@ -1,0 +1,9 @@
+query {
+    billingData {
+        address1
+        city
+        state
+        zipcode
+        country
+    }
+}

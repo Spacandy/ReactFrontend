@@ -1,0 +1,16 @@
+[ignore]
+.*/build
+.*/docs
+.*/node_modules
+.*/public
+.*/.history
+.*/.vscode
+
+[include]
+types
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+module.system.node.resolve_dirname=tools
+module.system.node.resolve_dirname=public

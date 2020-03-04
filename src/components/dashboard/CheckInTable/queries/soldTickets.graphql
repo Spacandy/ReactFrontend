@@ -1,0 +1,16 @@
+query($eventId: Int, $queryParams: String) {
+  transactionItems(eventId: $eventId, queryParams: $queryParams) {
+    count
+    next
+    previous
+    results {
+      uid
+      id
+      date
+      guest
+      email
+      name
+      price
+    }
+  }
+}

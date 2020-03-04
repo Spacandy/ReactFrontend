@@ -1,0 +1,15 @@
+mutation($body: String, $idempotencyKey: String) {
+  createEvent(body: $body, idempotencyKey: $idempotencyKey) {
+    id
+    _error {
+      headers {
+        key
+        value
+      }
+      url
+      status
+      statusText
+      body
+    }
+  }
+}

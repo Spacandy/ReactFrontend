@@ -1,0 +1,11 @@
+query ($id:Int){
+  transactionHistoryDetail(id:$id){
+    user
+    price
+    name
+    address
+    date
+    organizer
+    uid
+  }
+}

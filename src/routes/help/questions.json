@@ -1,0 +1,172 @@
+{
+  "general": [
+    {
+      "id": 0,
+      "title": "How do I create an event?",
+      "answer":
+        "It’s simple anywhere you see the Create Button will take you to the Create Event form. Fill out your event information, then click on publish event to start selling your tickets on EventHi’s marketplace."
+    },
+    {
+      "id": 1,
+      "title": "Is it really free for free events?",
+      "answer":
+        "EventHi is 100% FREE if your event is free for your attendees. There are absolutely no hidden costs and no feature limitations."
+    },
+    {
+      "id": 2,
+      "title": "How much does it cost for paid events?",
+      "answer":
+        "EventHi’s service fee is 2.9% + $0.99 per ticket. You get access to all of our features and you can have as many different types of tickets as you want with this pricing."
+    },
+    {
+      "id": 3,
+      "title": "Do you charge credit card processing fees?",
+      "answer":
+        "There is a transaction fee of 3% which allows us to accept credit cards and debit cards, it is applied per transaction, regardless of how many tickets are sold."
+    },
+    {
+      "id": 4,
+      "title": "Is there discounted pricing for charities and NPOs?",
+      "answer":
+        " Yes, EventHi offers 2.5% on our service fee for non-profit organizations. This discount is applied to our service fee and not on the credit card processing fee. Send the Event Name and your Username (email address registered on EventHi) to sales@eventhi.io to receive your 2.5% service fee discount."
+    },
+    {
+      "id": 5,
+      "title": "I didn’t receive my ticket?",
+      "answer":
+        "First check your spam email, if you still didn’t get your ticket, then please feel free to reach out to support@eventhi.io, and we will be more than happy to assist you in recovering your ticket."
+    },
+    {
+      "id": 6,
+      "title": "How do I contact the event organizer?",
+      "answer":
+        "Simple, go to the event page and scroll to the bottom, you will see a button labeled \"Contact\". You will be able to contact the event organizer directly."
+    },
+    {
+      "id": 7,
+      "title": "How do I reset my password?",
+      "answer":
+        "If you can’t remember your password, go to the EventHi homepage and click the Log In button. Below the email address and password entry fields is the option to reset your password. You will need to have access to the email address used to set up your EventHi account to be able to reset your password. You can also change your password once logged in at Account settings."
+    },
+    {
+      "id": 8,
+      "title": "How do I cancel my account?",
+      "answer":
+        "Please feel free to contact us at support@eventhi.io, and we will promptly cancel the account for you."
+    }
+  ],
+
+  "organizer": [
+    {
+      "id": 0,
+      "title": "Can I pass the fees to the attendee?",
+      "answer":
+        "Yes, you can pass all fees on to your buyers. You can absorb or pass the fees in the create form under the Ticket section when creating a paid ticket."
+    },
+    {
+      "id": 1,
+      "title": "Can I host a cannabis consumption event on EventHi?",
+      "answer":
+        "Yes, you can. All you need to do is select Consumption in the Event Create form. However, it is your duty to be informed and compliant with the state laws and county regulations regarding Cannabis and Cannabis-Consumption events."
+    },
+    {
+      "id": 2,
+      "title": "Can I host a non-cannabis event on EventHi?",
+      "answer":
+        "Yes, you can. All you need to do is select Non-Consumption in the Event Create form."
+    },
+    {
+      "id": 3,
+      "title": "Can I advertise or promote my event on EventHi?",
+      "answer":
+        "Yes, you can advertise and promote your event to reach your target audience through EventHi attendee’s marketplace. Please feel free to contact us at sales@eventhi.io for more information."
+    },
+    {
+      "id": 4,
+      "title": "Can I use EventHi for my event outside of the United States?",
+      "answer":
+        "No, unfortunately we can not serve event organizers in foreign countries just yet. To remain compliant with our bank and federal guidance, we can only offer our services to event organizers that live in the United States at this time."
+    },
+    {
+      "id": 5,
+      "title": "How do I edit my event page?",
+      "answer":
+        "Go to your Dashboard, select your event on the left sidebar, then Edit. Your event details will be updated promptly after submitting this form"
+    },
+    {
+      "id": 6,
+      "title": "How do I check-in attendees at my event?",
+      "answer":
+        "You can use our event check-in tools to validate your customers’ tickets when they arrive at your event. Your customers will have received an e-ticket by email, which will include a barcode and a confirmation number. There are two tools you can use for event check-in. EventList - Print out a EventList and check people in using their e-ticket confirmation number or name. Dashboard Check-in - Use our Dashboard app and check people in by searching their name or confirmation number."
+    },
+    {
+      "id": 7,
+      "title": "How do I make my event private?",
+      "answer":
+        "Making your event private and viewable only to your invited attendees is as easy as flipping a switch in the Create Form marked private. We will send you the private invite link to your email soon after you publish your event. Your event will only be viewable to the people you share your event link with."
+    },
+    {
+      "id": 8,
+      "title": "How do I delete an event?",
+      "answer":
+        "Before you can delete your event you must refund all attendees who have purchased tickets for the event. If you have been receiving Advanced Payout from EventHi, you must contact us immediately at support@eventhi.io to make certain you have a method of payment to refund your attendees. After you have taken all the steps to refund all of your attendees, you can go to your Dashboard and click on Delete to remove your event from the EventHi marketplace."
+    },
+    {
+      "id": 9,
+      "title": "Why has my event been suspended?",
+      "answer":
+        "If you receive an email stating your event has been suspended, please review our Terms of Use and Merchant policy to see if you have violated EventHi's Terms of Service."
+    }
+  ],
+
+  "pricing": [
+    {
+      "id": 0,
+      "title": "How do I get paid for the tickets I sell?",
+      "answer":
+        "You can receive your payout settlement in check or an ACH deposit directly to your bank account. To receive your payout, contact us at support@eventhi.io."
+    },
+    {
+      "id": 1,
+      "title": "When do I get the payout for my event?",
+      "answer":
+        "When organizing your first event on EventHi, your payout automatically defaults to 7 days after the event has ended. You will receive the payout settlements with fees and charges deducted. You may also apply for Advance Payout, in which you can get paid monthly or bi-weekly."
+    },
+    {
+      "id": 2,
+      "title": "How do I apply for advance payout?",
+      "answer":
+        "You can receive your payout monthly or bi-weekly, all you need to do is contact us at support@eventhi.io. We will need more information to ensure your advance payouts are being sent securely to the correct account holder. You may change your payout schedule any time after your event has been published."
+    },
+    {
+      "id": 3,
+      "title": "Does EventHi hold a reserve?",
+      "answer":
+        "Yes, we hold a 25% reserve from every ticket sold on EventHi. This reserve will cover any chargebacks or returns after the event has ended. You will receive the reserve, with fees and/or chargebacks that have been charged to your account 7 days after the event has ended. This should give you time to handle any last-minute returns or refunds before receiving your final settlement from us."
+    },
+    {
+      "id": 4,
+      "title": "Does EventHi offers refunds?",
+      "answer":
+        "No, we don’t issue refunds for events, the organizer of an event sets the refund policy for buyers you can contact the event organizer and ask for your refund. First check on the event page for the refund policy information. You can contact the event organizer by clicking Contact on the bottom of the page. If you don’t hear back from the organizer within 3 days, then pleases feel free to contact us at support@eventhi.io. Refunds can take up to 5 business days from the day the refund was issued to your account."
+    },
+    {
+      "id": 5,
+      "title": "How do I refund an order?",
+      "answer":
+        "When a customer asks for a refund you must respond back to the customer within 2 days of first contact. If you agree on refunding the attendee, all you need to do is, go to the Dashboard section, fill out and submit the refund form, and we will refund the customers within 24 hours."
+    },
+    {
+      "id": 6,
+      "title": "What happens if a buyer disputes the charge?",
+      "answer":
+        "When a buyer disputes a charge on their card with their bank, the funds are returned to the cardholder and the amount is taken out of the event organizer's balance along with a $20 chargeback fee. We will submit evidence to the cardholder’s bank to aid the dispute in understanding the reasoning of the charge"
+    },
+    {
+      "id": 7,
+      "title": "How secure is EventHi payments?",
+      "answer":
+        "The payment environment on EventHi is SSL encrypted and PCI-DSS 3.2 Compliant, our payment gateway ensures all cardholder data is secure."
+    }
+  ]
+}

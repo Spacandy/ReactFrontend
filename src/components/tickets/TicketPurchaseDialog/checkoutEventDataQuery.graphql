@@ -1,0 +1,10 @@
+query($id: String) {
+  eventDetails(id: $id) {
+    name
+    location
+    startDate
+    organizer
+    hostname
+    timezone
+  }
+}

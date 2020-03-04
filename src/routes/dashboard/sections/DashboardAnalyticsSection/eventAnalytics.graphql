@@ -1,0 +1,12 @@
+query($id: Int) {
+  eventAnalytics(id: $id) {
+    secondsLeft
+    ticketsSold
+    amountSold
+    ticketsClaimed
+    ticketsRemaining
+    sponsorshipsSold
+    sponsorshipsAmountSold
+    sponsorshipsRemaining
+  }
+}

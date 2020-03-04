@@ -1,0 +1,6 @@
+mutation ($eventId: Int){
+  cancelEvent(eventId: $eventId){
+    id,
+    canceled
+  }
+}

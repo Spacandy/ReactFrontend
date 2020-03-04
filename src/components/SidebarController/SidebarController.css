@@ -1,0 +1,70 @@
+/*
+//              ___             _   _  _ _
+//             | __|_ _____ _ _| |_| || (_)
+// Property of:| _|\ V / -_) ' \  _| __ | |
+//             |___|\_/\___|_||_\__|_||_|_|
+//
+*/
+
+.sidebar-full {
+  width: 220px;
+  background-color: #424242;
+  position: relative;
+  left: 0;
+  z-index: 10;
+  transition: 1s all;
+}
+
+.sidebar-min {
+  width: 220px;
+  background-color: #424242;
+  position: relative;
+  z-index: 10;
+  left: -160px;
+  transition: 1s all;
+}
+
+.wrapper-min {
+  padding: 0 25px;
+  position: absolute;
+  transition: 1s all;
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  top: 78px;
+  left: 45px;
+  right: 0;
+  bottom: 0;
+}
+
+.scroll {
+  min-height: -webkit-min-content;
+  display: flex;
+}
+
+.wrapper-full {
+  padding: 0 25px;
+  position: absolute;
+  transition: 1s all;
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  top: 78px;
+  left: 210px;
+  right: 0;
+  bottom: 0;
+}
+@media (max-width: 676px) {
+  .wrapper-full {
+    padding: 0 25px;
+    position: absolute;
+    transition: 1s all;
+    flex: 1;
+    display: flex;
+    overflow: auto;
+    top: 78px;
+    left: 45px;
+    right: 0;
+    bottom: 0;
+  }
+}

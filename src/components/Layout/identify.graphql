@@ -1,0 +1,13 @@
+query {
+  identify {
+    id
+    email
+    isHost
+    firstName
+    lastName
+    displayName
+    avatarUrl
+    hasUsablePassword
+    contentTypeId
+  }
+}

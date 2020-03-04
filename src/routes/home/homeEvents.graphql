@@ -1,0 +1,40 @@
+query($page: Int) {
+  homeEvents(page: $page) {
+    id
+    slug
+    name
+    hostname
+    description
+    categories
+    canceled
+    contactEmail
+    location
+    schedule
+    image
+    type
+    organizer
+    hostname
+    isFavorite
+    timezone
+    tickets {
+      id
+      ticketName
+      description
+      active
+      quantity
+      showQuantity
+      remaining
+      itemType
+      salesStart
+      salesEnd
+      minPerOrder
+      maxPerOrder
+      price
+      feesType
+      serviceFee
+      creditCardFee
+    }
+    lowestTicketPrice
+    refundPolicy
+  }
+}

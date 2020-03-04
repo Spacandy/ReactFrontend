@@ -1,0 +1,32 @@
+mutation($spreedlyToken: String, $idempotencyKey: String, $selectedItems: [TicketItem]) {
+  purchaseTickets(
+    spreedlyToken: $spreedlyToken
+    idempotencyKey: $idempotencyKey
+    selectedItems: $selectedItems
+  ) {
+    uid
+    error
+    data {
+      transaction_type
+      retain_on_success
+      message
+      payment_method_added
+      response {
+        error_code
+        success
+        error_detial
+        pending
+        cancelled
+        created_at
+        result_unknown
+      }
+      payment_method {
+        storage_state
+        errors
+      }
+      succeeded
+      amount
+      email
+    }
+  }
+}

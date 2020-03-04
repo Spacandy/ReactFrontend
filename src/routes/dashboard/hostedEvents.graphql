@@ -1,0 +1,10 @@
+query {
+  hostedEvents {
+    id
+    name
+    canceled
+    published
+    endsAt
+    name_slug
+  }
+}

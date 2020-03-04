@@ -1,0 +1,11 @@
+query {
+  purchasedTicketsUpcoming {
+    eventName
+    startDate
+    price
+    transactionId
+    type
+    status
+    description
+  }
+}

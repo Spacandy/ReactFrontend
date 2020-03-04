@@ -1,0 +1,10 @@
+mutation ($firstName: String, $lastName: String) {
+	profileChange(firstName: $firstName, lastName: $lastName) {
+    location,
+    html,
+    form_errors {
+			firstName,
+      lastName
+    }
+  }
+}

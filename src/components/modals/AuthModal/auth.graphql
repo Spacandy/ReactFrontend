@@ -1,0 +1,14 @@
+query Auth($username: String!, $password: String!) {
+  auth(username: $username, password: $password) {
+    id
+    email
+    firstName
+    lastName
+    displayName
+    avatarUrl
+    hasUsablePassword
+    csrftoken
+    sessionid
+    contentTypeId
+  }
+}

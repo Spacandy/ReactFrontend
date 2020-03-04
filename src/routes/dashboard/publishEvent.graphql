@@ -1,0 +1,6 @@
+mutation ($eventId: Int){
+  publishEvent(eventId: $eventId){
+    id,
+    published
+  }
+}

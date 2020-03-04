@@ -1,0 +1,5 @@
+mutation($ticketNumber: String, $subject: String, $message: String) {
+  refundTicket(ticketNumber: $ticketNumber, subject: $subject, message: $message) {
+    returned
+  }
+}

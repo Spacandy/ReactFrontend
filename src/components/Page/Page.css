@@ -1,0 +1,23 @@
+/**
+ *              ___             _   _  _ _
+ *             | __|_ _____ _ _| |_| || (_)
+ * Property of:| _|\ V / -_) ' \  _| __ | |
+ *             |___|\_/\___|_||_\__|_||_|_|
+ *
+ */
+
+@import '../variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: var(--max-content-width);
+}
+

@@ -1,0 +1,15 @@
+mutation($address1: String, $city: String, $state: String, $zipcode: String, $country: String) {
+    editBillingData(address1: $address1, city: $city, state: $state, zipcode: $zipcode, country: $country) {
+        status
+        _error {
+            headers {
+                key
+                value
+            }
+            url
+            status
+            statusText
+            body
+        }
+    }
+}

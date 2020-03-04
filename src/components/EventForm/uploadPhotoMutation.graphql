@@ -1,0 +1,5 @@
+mutation($eventId: Int, $imageData: String) {
+    uploadEventPhoto(eventId: $eventId, imageData: $imageData) {
+        status
+    }
+}

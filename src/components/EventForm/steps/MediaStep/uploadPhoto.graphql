@@ -1,0 +1,6 @@
+mutation ($filename: String, $photo: String) {
+  uploadPhoto(filename: $filename, photo: $photo) {
+    id,
+    url
+  }
+}

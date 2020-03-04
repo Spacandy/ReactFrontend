@@ -1,0 +1,29 @@
+subscription onEventDetailsChanged($id: Int) {
+  eventDetailsChanged(id: $id) {
+    id
+    name
+    description
+    categories
+    location
+    schedule
+    image
+    type
+    organizer
+    isFavorite
+    tickets {
+      id
+      name
+      description
+      quantity
+      showQuantity
+      remaining
+      allowWaitlist
+      saleStartDate
+      saleEndDate
+      hideType
+      minPerOrder
+      maxPerOrder
+      price
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/*
+//              ___             _   _  _ _
+//             | __|_ _____ _ _| |_| || (_)
+// Property of:| _|\ V / -_) ' \  _| __ | |
+//             |___|\_/\___|_||_\__|_||_|_|
+//
+*/
+
+hr {
+  width: 100px;
+  border: #00aeef 0.5px solid;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 300;
+  text-align: center;
+  margin: 84px auto 0;
+}

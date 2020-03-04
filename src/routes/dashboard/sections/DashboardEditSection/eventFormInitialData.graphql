@@ -1,0 +1,86 @@
+query($id: Int) {
+  eventFormInitialData(id: $id) {
+    id
+    general {
+      eventTitle
+      hostname
+      description
+      contactEmail
+      objectId
+      contentType
+      cannabisConsumption
+      isPublic
+      allowSharing
+      timezone
+      timezoneOffset
+      hasSoldTickets
+    }
+    when {
+      startDate
+      startTime
+      endDate
+      endTime
+      timezone
+    }
+    where {
+      locationType
+      privateLocation
+      addressName
+      streetAddress
+      addressLocality
+      addressRegion
+      addressCountry
+      postalCode
+      showOnSite
+      showOnTicket
+      eventUrl
+    }
+    tickets {
+      id
+      event
+      ticketName
+      description
+      type
+      feesType
+      quantity
+      price
+      availability
+      allowWaitlist
+      hideType
+      minPerOrder
+      maxPerOrder
+      salesStartDate
+      salesStartTime
+      salesEndDate
+      salesEndTime
+      showQuantity
+      hasSoldTickets
+    }
+    media {
+      logoFilename
+      logoURL
+      videoURL
+    }
+    promote {
+      categories
+      organizerWebsite
+      organizerFacebook
+      organizerInstagram
+      organizerTwitter
+    }
+    refunds {
+      refundPolicy
+    }
+
+    _error {
+      headers {
+        key
+        value
+      }
+      url
+      status
+      statusText
+      body
+    }
+  }
+}

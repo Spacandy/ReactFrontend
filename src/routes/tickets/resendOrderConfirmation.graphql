@@ -1,0 +1,5 @@
+query($transactionId: Int) {
+  resendOrderConfirmationEmail(transactionId: $transactionId) {
+    status
+  }
+}
