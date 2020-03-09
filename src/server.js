@@ -35,7 +35,7 @@ import { isRelease } from 'settings';
 import createApolloClient from './core/createApolloClient';
 import App from './components/App';
 import Html from './components/Html';
-import { ErrorPageWithoutStyle } from './routes/error/ErrorPage';
+import ErrorPageWithoutStyle from './routes/error/ErrorPage';
 import errorPageStyle from './routes/error/ErrorPage.css';
 import createFetch from './createFetch';
 import router from './router';
